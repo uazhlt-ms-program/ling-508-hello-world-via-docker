@@ -1,0 +1,2 @@
+#using python v3.10
+#pytest~=8.3.2   # we don't need this in this particular project, but for TDD this will be our habit

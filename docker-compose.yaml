@@ -1,0 +1,13 @@
+# This is a docker-compose configuration file.
+# It defines one or more services that can be started together.
+
+version: "3.8"  # Version of the docker-compose file format
+
+services:
+  hello:        # The name of the service (this can be anything, but it's how Docker will refer to the service we're starting here)
+    build: .    # Tells docker-compose to build the image from the Dockerfile
+                # in the current directory (Docker will by default look in this
+                # directory for a file named Dockerfile to use to build the container)
+                #
+                # see https://docs.docker.com/compose/gettingstarted/ for a more complex
+                # example
