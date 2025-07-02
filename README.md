@@ -12,6 +12,6 @@ do all of this in Windows? I haven't tested it, but you're welcome to try!)
   You'll want to create a virtual environment using Python 3.10, and using the requirements.txt file
 * In Pycharm, open a terminal in the project root directory
   * type 'docker-compose up --build'
-* You'll see a message `hello_1  | Hello, world from Docker!`, and then the container will exit.
+* You'll see a message `hello_1  | Hello, world from within a Docker container!`, and then the container will exit.
 * You can see what Docker containers are currently running by executing `docker ps` in the Pycharm terminal (or in *any* running terminal).
 * You can find a cheatsheet for Docker commands at https://docs.docker.com/get-started/docker_cheatsheet.pdf
